@@ -1,72 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose Lawrence Aquino - Full-Stack Developer</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body data-bs-spy="scroll" data-bs-target="#navbar">
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
+    <title>DGTalPixel - Web Creation Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">W<i class="ri-ie-line"></i>bon</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#work">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#resume">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav flex-row">
-              <li class="nav-item">
-                <a class="social-icons" href="https://www.linkedin.com/in/jose-lawrence-aquino-963155253/" target="_blank"><i class="ri-linkedin-line"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="social-icons" href="https://web.facebook.com/profile.php?id=100082647513856" target="_blank"><i class="ri-facebook-line"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="social-icons" href="https://github.com/LawrenceWebon" target="_blank"><i class="ri-github-line"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="social-icons" href="https://gitlab.com/lawrence.webon" target="_blank"><i class="ri-gitlab-line"></i></a>
-              </li>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="./assets/images/mylogo.png" alt="My Logo" class="logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a
+                class="social-icons"
+                href="https://www.linkedin.com/in/jose-lawrence-aquino-963155253/"
+                target="_blank"
+                ><i class="ri-linkedin-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="social-icons"
+                href="https://web.facebook.com/profile.php?id=100082647513856"
+                target="_blank"
+                ><i class="ri-facebook-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="social-icons"
+                href="https://join.skype.com/invite/uX1rQ62wTsLD"
+                target="_blank"
+                ><i class="ri-skype-line"></i
+              ></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Home -->
-    <section id="home" class="d-flex align-items-center min-vh-100 ">
+    <section id="home" class="d-flex align-items-center min-vh-100">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1 class="display-1 fw-bold ">Hi there! I am  <span class="text-brand">Lawrence.</span></h1>
-            <h4 class="mt-3 mb-5 ">A Full-Stack Web Developer</h4>
+          <div class="col-md-8">
+            <h1 class="display-1 fw-bold">
+              Professional <br />
+              <span class="text-brand">Web Development</span><br />
+              Services
+            </h1>
+            <h4 class="mt-3 mb-5">Building Digital Masterpieces</h4>
             <a href="#contact" class="btn btn-brand">Get Connect</a>
-            <a href="./resume/Resume2022.pdf" download class="btn btn-brand">Download CV</a>
           </div>
         </div>
-      </div> 
+      </div>
     </section>
 
     <!-- Services -->
@@ -75,8 +110,14 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h1>Services</h1>
-              <p>Full stack developers have comprehensive knowledge about the front and back end web development process. This means that these developers contribute on both server-side and client-side of the application.</p>
+              <h1>Our Services Offer</h1>
+              <p>
+                Our expertise lies in offering specialized services for crafting
+                professional websites. Our aim is to assist you in building a
+                high-quality website that will propel your business forward,
+                fostering growth and success. Take the first step and reserve
+                your spot with us today.
+              </p>
               <div class="line"></div>
             </div>
           </div>
@@ -86,8 +127,11 @@
                 <div class="service-icon">
                   <i class="ri-quill-pen-line"></i>
                 </div>
-                  <h5 class="mt-4 ">Front-End Design</h5>
-                  <p>I creates websites and applications using web languages such as HTML, CSS, and JavaScript.  </p>
+                <h5 class="mt-4">Front-End Development</h5>
+                <p>
+                  I creates websites and applications using web languages such
+                  as HTML, CSS, JavaScript, React and Laravel.
+                </p>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -95,242 +139,474 @@
                 <div class="service-icon">
                   <i class="ri-server-line"></i>
                 </div>
-                  <h5 class="mt-4 ">Back-End Server</h5>
-                  <p>Storing and organizing data, and ensuring everything on the client-side actually works.  </p>
+                <h5 class="mt-4">Back-End Development</h5>
+                <p>
+                  Storing and organizing data, and ensuring everything on the
+                  client-side actually works.
+                </p>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
               <div class="service py-4 px-4 border">
                 <div class="service-icon">
-                  <i class="ri-briefcase-2-fill"></i>
+                  <i class="ri-paint-brush-fill"></i>
                 </div>
-                  <h5 class="mt-4 ">Full-Stack Development</h5>
-                  <p>Develops a technology that can provide the end customer with a complete product or service.</p>
+                <h5 class="mt-4">Web-Design</h5>
+                <p>
+                  Crafting captivating digital experiences with seamless UI/UX
+                  design using Figma.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service py-4 px-4 border">
+                <div class="service-icon">
+                  <i class="ri-hammer-fill"></i>
+                </div>
+                <h5 class="mt-4">Re-Design Website</h5>
+                <p>
+                  Enhancing its visual appearance, usability, and user
+                  experience to improve engagement, conversions, and overall
+                  success.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service py-4 px-4 border">
+                <div class="service-icon">
+                  <i class="ri-server-fill"></i>
+                </div>
+                <h5 class="mt-4">Hosting and Domain</h5>
+                <p>
+                  Establish an online presence, providing the infrastructure for
+                  storing and delivering website content while offering a unique
+                  address to access it.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service py-4 px-4 border">
+                <div class="service-icon">
+                  <i class="ri-device-fill"></i>
+                </div>
+                <h5 class="mt-4">Digital Marketing</h5>
+                <p>
+                  Utilizing digital channels and technologies to reach and
+                  engage with the target audience, promote products or services,
+                  and achieve marketing objectives.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
-    <!-- Work -->
-    <section id="work" class="section-padding section-connector">
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section-padding section-connector">
       <div class="container">
         <div class="row">
           <div class="">
             <div class="section-title text-center">
-              <h1>My Work</h1>
-              <p>API stands for application programming interface. APIs enable one application, for example an ecommerce platform, to expose services (such as catalog content, order management, pricing information and customer data) to other applications.
+              <h1>Sample Works</h1>
+              <p>
+                At <strong>DGTalPixel</strong> , we offer exceptional web
+                development services, leveraging
+                <strong>JavaScript, HTML, CSS, React, </strong> and
+                <strong>Laravel</strong> to create visually appealing and
+                dynamic business websites. Our expertise lies in seamlessly
+                integrating cutting-edge technologies to deliver engaging user
+                experiences, helping our clients succeed in the digital realm.
               </p>
               <div class="line"></div>
             </div>
           </div>
         </div>
         <div class="row gy-2 text-center">
-          <div class="col-lg-6 col-sm-12">
+          <div class="col-lg-6 col-sm-12 p-5 pt-0">
             <div class="project">
-              <img src="./assets/images/img-e1.png" alt="" srcset="" class="p-5 mt-5">
+              <img src="./assets/images/img-e1.png" alt="" srcset="" />
               <div class="content">
-                <a href="./assets/images/img-e1.png" data-fancybox="gallary">Coming Soon...</a>
-                <h3>E-commerce Website</h3>
+                <a
+                  href="./assets/images/img-e1.png"
+                  data-fancybox="gallary"
+                  class="btn btn-brand m-2"
+                  >View Gallary</a
+                >
+                <a
+                  href="https://my-capstone3-aquino.vercel.app/"
+                  class="btn2 btn2-brand2"
+                  target="_blank"
+                  >Visit Website</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-sm-12">
+          <div class="col-lg-6 col-sm-12 p-5 pt-0">
             <div class="project">
-              <img src="./assets/images/img-e2.png" alt="" srcset="" class="">
+              <img src="./assets/images/img-e2.png" alt="" srcset="" />
               <div class="content">
-                <a href="./assets/images/img-e2.png" data-fancybox="gallary" >Coming Soon...</a>
-                <h3>Spotify App Clone</h3>
+                <a
+                  href="./assets/images/img-e2.png"
+                  data-fancybox="gallary"
+                  class="btn btn-brand m-2"
+                  >View Gallary</a
+                >
+                <a
+                  href="https://seed-tech-school.com/"
+                  class="btn2 btn2-brand2"
+                  target="_blank"
+                  >Visit Website</a
+                >
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-    
-    <!-- Resume -->
-    <section id="resume" class="section-padding section-connector">
+
+    <!-- Tools -->
+    <section id="tools" class="section-padding bg-gray section-connector">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h1>Education & Experience</h1>
-              <p>I am a mechanical engineer fresh graduate. Ambitious, eager to keep growing and evolving in my profession. Constantly developing new skills and abilities. Currently looking for a full-time position to expand my skillset.</p>
+              <h1>Tools</h1>
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-8 m-auto">
+            <div class="logo-list">
+              <div class="logo-item">
+                <img src="./assets/images/html5-logo.png" alt="HTML" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/css3-logo.png" alt="CSS" />
+              </div>
+              <div class="logo-item">
+                <img
+                  src="./assets/images/javascript-logo.png"
+                  alt="JavaScript"
+                />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/sass-logo.png" alt="Sass" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/bootstrap-logo.png" alt="Bootstrap" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/react-logo.png" alt="React" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/git-logo.png" alt="Git" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/github-logo.png" alt="GitHub" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/gitlab-logo.png" alt="GitLab" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/figma-logo.png" alt="Figma" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/php-logo.png" alt="PHP" />
+              </div>
+              <div class="logo-item">
+                <img src="./assets/images/laravel-logo.png" alt="Laravel" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-padding section-connector">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h1>Company Overview</h1>
+              <p>
+                <strong>DGTalPixel</strong> is a leading provider of web
+                creation services, dedicated to delivering tailored solutions to
+                clients seeking frontend development, backend development, and
+                web design expertise. Our mission is to empower businesses with
+                a strong online presence, foster growth, and provide employment
+                opportunities for talented professionals in the Philippines.
+              </p>
               <div class="line"></div>
             </div>
           </div>
         </div>
         <div class="row">
+          <div class="col-md-6 mb-5">
+            <div class="row">
+              <div class="col-12">
+                <div class="eduexp p-5 pt-0">
+                  <h5>Company History</h5>
+                  <small class="text-brand">Founded in July 2023</small>
+                  <p class="mb-0">
+                    Founded in July 2023 following extensive research and study
+                    in the multi-servicing business (MSB) domain,
+                    <strong>DGTalPixel</strong> possesses an in-depth
+                    understanding of the industry landscape. This foundation
+                    enables us to provide cutting-edge web creation services and
+                    maintain a competitive edge.
+                  </p>
+                </div>
+                <div class="eduexp p-5 pt-0">
+                  <h5>Mission Statement</h5>
+                  <!-- <small class="text-brand">2018 - 2022</small> -->
+                  <p class="mb-0">
+                    We strive for long-term partnerships with our clients. Our
+                    goal is to continuously adapt and evolve, leveraging the
+                    latest technological advancements to meet their
+                    ever-changing needs. As a trusted partner in their digital
+                    journey, we are committed to remaining at the forefront of
+                    innovation.
+                  </p>
+                </div>
+                <div class="eduexp p-5 pt-0 pb-0">
+                  <h5>Future Vision</h5>
+                  <!-- <small class="text-brand">Oct 2022 - Dec 2022</small> -->
+                  <p class="mb-0">
+                    Our future vision at <strong>DGTalPixel</strong> is to
+                    establish ourselves as a globally renowned provider of web
+                    creation services, renowned for our exceptional quality and
+                    customer satisfaction. Building on this success, we aim to
+                    expand our expertise into the fields of AI and Machine
+                    Learning, Cloud Computing, and Cybersecurity. By offering
+                    comprehensive digital services, including innovative web
+                    solutions, AI integration, secure cloud hosting, and
+                    state-of-the-art cybersecurity measures, we empower
+                    businesses to thrive in the digital era.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-md-6">
             <div class="row">
               <div class="col-12">
                 <div class="eduexp p-5 pt-0">
-                  <h5>University of Cebu-Main Campus, </h5>
-                  <h5>BS Mechanical Engineering</h5>
-                  <small class="text-brand">2018 - 2022</small>
-                  <p class="mb-0">Conduct an undergraduate thesis on rotating tool storage cabinet as organization solution.</p>
+                  <h5>Unique Selling Proposition (USP)</h5>
+                  <!-- <small class="text-brand">2018 - 2022</small> -->
+                  <p class="mb-0">
+                    <strong>DGTalPixel</strong> stands out from the competition
+                    through our unparalleled expertise in technologies such as
+                    PHP, Laravel, HTML, CSS, JavaScript, and Bootstrap. To
+                    further enhance efficiency, we equip our employees with a
+                    paid version of AI, including ChatGPT, which expedites
+                    coding, decoding, and debugging processes. This innovative
+                    approach ensures exceptional outcomes for our clients.
+                  </p>
                 </div>
-                <div class="eduexp p-5 pt-0 pb-0">
-                  <h5>Zuitt Coding Bootcamp, </h5>
-                  <h5>Web Developer Training</h5>
-                  <small class="text-brand">Oct 2022 - Dec 2022</small>
-                  <p class="mb-0">Become a web developer in 2 months</p>
+                <div class="eduexp p-5 pt-0">
+                  <h5>Core Values</h5>
+                  <!-- <small class="text-brand">2018 - 2022</small> -->
+                  <p class="mb-0">
+                    Integrity, quality, and innovation are the pillars of our
+                    business. We uphold Filipino values in all aspects of our
+                    operations, fostering transparency, trust, and
+                    professionalism. By adhering to these principles, we
+                    consistently deliver excellence in every endeavor.
+                  </p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-12">
-                <div class="eduexp p-5 pt-5">
-                  <h5>Working Scholar at University of Cebu-Main Campus</h5>
-                  <h5>Head Office Assistant</h5>
-                  <small class="text-brand">2018 - 2022</small>
-                  <p class="mb-0">Oriented in MS Word & Excel</p>
-                  <p class="mb-0">Taking & Directing Calls</p>
-                  <p class="mb-0">Organization of Files</p>
+                <div class="eduexp p-5 pt-0">
+                  <h5>Team and Expertise</h5>
+                  <!-- <small class="text-brand">2018 - 2022</small> -->
+                  <p class="mb-0">
+                    The team at <strong>DGTalPixel</strong> comprises skilled
+                    professionals proficient in PHP, Laravel, HTML, CSS,
+                    JavaScript, and Bootstrap. Our web design experts leverage
+                    cutting-edge tools like Figma to create visually captivating
+                    and user-friendly websites. Together, our collective
+                    expertise enables us to craft remarkable digital experiences
+                    for our clients.
+                  </p>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-
       </div>
- 
-
     </section>
+
     <!-- Contact -->
     <section id="contact" class="section-padding section-connector">
-      <div class="container w-50">
+      <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h1>Contact Me</h1>
+              <h1>Contact Us</h1>
+              <p>
+                Reach out to us now for any questions, inquiries, or further
+                information you need.
+              </p>
               <div class="line"></div>
             </div>
           </div>
         </div>
-          <div class="bg-secondary text-light flex-sm-12 flex-md-8 flex-xl-4 p-3 m-3 col-12 p-4 rounded">
-            <form>
+        <div class="col-md-6 col-12 col-sm-10 m-auto">
+          <div class="bg-secondary text-light p-3 m-3 mt-0 rounded">
+            <form action="https://formspree.io/f/mdorokny" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  autocomplete="off"
+                  aria-describedby="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="email"
+                  autocomplete="off"
+                  aria-describedby="emailHelp"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Contact Number</label>
+                <input
+                  type="number"
+                  name="contact"
+                  class="form-control"
+                  id="number"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  autocomplete="off"
+                  name="message"
+                ></textarea>
+              </div>
 
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" required>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control w-100" id="email" aria-describedby="emailHelp" required>
-                </div>
-                <div class="form-group">
-                  <label for="number">Contact Number</label>
-                  <input type="number" class="number w-100 p-1 border-white rounded" id="number" required>
-                </div>
-                <div class="form-group w-100">
-                    <label for="subject ">Message</label>
-                    <textarea class="w-100 rounded " id="message" name="subject"></textarea>
-                </div>
-                
-                <!-- Button trigger modal -->
-                <div class="d-flex justify-content-around">
-                  <button type="submit" class="btn btn-brand mt-3 text-white" data-toggle="modal" data-target="#exampleModalLabel">Send Message</button>
-                </div>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModalLabel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
-                        <button type="submit" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        </div>
-                        <div class="modal-body text-dark">
-                        Message Successfully Sent
-                        </div>
-                        <div class="modal-footer">
-                        <button type="submit" class="btn btn-brand" data-dismiss="modal">Close</button>
-                        
-                        </div>
-                    </div>
-                    </div>
-                </div>
-              </form>
-
+              <!-- Button trigger modal -->
+              <div class="d-flex justify-content-center">
+                <button
+                  type="submit"
+                  class="btn btn-brand mt-3"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-        
-        </div>
-
       </div>
- 
-
     </section>
-    <!-- Footer -->
-    <section id="contact" class="section-padding section-connector bg-secondary text-white m-0">
-      <div class="footer-top">
-        <div class="container ">
-          <div class="row">
-            <div class="col-md-4">
-              <h4 class="text-white">Jose Lawrence Aquino</h4>
-              <p>Software Developer</p>
-              <ul class="navbar-nav flex-row">
-                <li class="nav-item">
-                  <a class="social-icons" href="#"><i class="ri-linkedin-line"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="social-icons" href="#"><i class="ri-facebook-line"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="social-icons" href="#"><i class="ri-github-line"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="social-icons" href="#"><i class="ri-gitlab-line"></i></a>
-                </li>
-              </ul>
 
+    <!-- Footer -->
+    <section
+      id="contact"
+      class="section-padding section-connector bg-secondary text-white m-0 pb-3 pt-5"
+    >
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-12 col-sm-6">
+              <div class="text-center">
+                <h4 class="text-white">Jose Lawrence Aquino</h4>
+                <p>CEO / Software Engineer</p>
+              </div>
             </div>
-            <div class="col-md-3 ms-auto text-white">
-              <h4 class="text-white"s>Quick Links</h4>
-              <ul >
-                <li><a href="#services" class="text-white">Services</a></li>
+            <div
+              class="col-md-3 col-12 col-sm-6 mb-5 m-auto mt-0 p-5 pt-0 pb-0"
+            >
+              <img
+                src="./assets/images/mylogowithbg.png"
+                alt="My Logo"
+                class="logo"
+              />
+            </div>
+            <div class="col-md-3 col-12 col-sm-6 ms-auto text-white">
+              <h4 class="text-white" s>Quick Links</h4>
+              <ul>
+                <li>
+                  <a href="#services" class="text-white">Services</a>
+                </li>
+                <li><a href="#work" class="text-white">Work</a></li>
+                <li><a href="#about" class="text-white">About</a></li>
                 <li><a href="#contact" class="text-white">Contact</a></li>
               </ul>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-3 col-12 col-sm-6">
               <h4 class="text-white">Contact</h4>
               <ul>
-                <li>Email: lawrencewebon@gmail.com</a></li>
+                <li>Gmail: lawrencewebon@gmail.com</li>
                 <li>Phone: 0961-107-8916</li>
-                <li>Address: Cebu City, Cebu</li>
+                <li>Address: Cebu City, Philippines</li>
               </ul>
             </div>
           </div>
         </div>
-
-      </div>
-      <div class="footer-buttom">
-        <div class="container">
-          <div class="row justify-content-center text-left">
-            <div class="col-auto">
-              <p class="mt-5">Design by: Jose Lawrence Aquino</p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
-
-
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
-    "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="./assets/js/app.js"></script>
-    
-</body>
+
+    <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      /* paste this line in verbatim */
+      window.formbutton =
+        window.formbutton ||
+        function () {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
+      /* customize formbutton below*/
+      formbutton("create", {
+        action: "https://formspree.io/f/mdorokny",
+        title: "How can we help?",
+        fields: [
+          {
+            type: "email",
+            label: "Email:",
+            name: "email",
+            required: true,
+            placeholder: "your@email.com",
+          },
+          {
+            type: "textarea",
+            label: "Message:",
+            name: "message",
+            placeholder: "What's on your mind?",
+          },
+          {type: "submit"},
+        ],
+        styles: {
+          title: {
+            backgroundColor: "gray",
+          },
+          button: {
+            backgroundColor: "gray",
+          },
+        },
+      });
+    </script>
+  </body>
 </html>
