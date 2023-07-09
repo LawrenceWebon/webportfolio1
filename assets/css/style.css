@@ -60,6 +60,10 @@ img {
   width: 100%;
 }
 
+ul {
+  list-style-type: none; /* Remove the bullets */
+}
+
 .section-padding {
   padding: 120px 0 120px 0;
 }
@@ -194,6 +198,17 @@ img {
   background-color: #e7e7e7;
   background-position: 100% 20%;
   background-attachment: fixed;
+  animation-name: slideIn;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%); /* Start position at the bottom */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* End position at the top */
+    opacity: 1;
+  }
 }
 /* Media Query for Mobile View */
 @media (max-width: 768px) {
@@ -202,6 +217,29 @@ img {
     background-position: 45% bottom; /* Adjust the position if needed */
     background-attachment: fixed; /* Allow scrolling on mobile */
   }
+}
+
+/* Home Animation */
+.animate-word {
+  opacity: 0; /* Start with the words hidden */
+  animation-duration: 1s; /* Duration of the animation */
+  animation-fill-mode: both; /* Retain the end state of the animation */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%); /* Start position at the bottom */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* End position at the top */
+    opacity: 1;
+  }
+}
+
+.animate-word {
+  animation-name: slideIn; /* Apply animation to the words */
+  animation-delay: 0.5s; /* Delay the animation start */
 }
 
 /* Services */
@@ -237,6 +275,8 @@ img {
 .custom-link:hover i {
   transform: translateX(6px);
 }
+
+/* Services Animation */
 
 /* Work */
 
